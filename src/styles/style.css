@@ -6,13 +6,23 @@
     padding-bottom: 30px;
     letter-spacing: 1px;
 }
-a{
+.asistencia{
     color: white;
     padding: 0 20px;
     
 }
+.contacto{
+    color: white;
+    padding: 0 20px;
+}
+.acerca{
+    color: white;
+    padding: 0 20px;
+}
 .telefono{
     text-decoration: none;
+    color: white;
+    padding: 0 20px;
 }
 .envio{
     display: inline-block;

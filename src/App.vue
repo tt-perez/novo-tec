@@ -8,13 +8,13 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="promo">
     <v-icon class="icon-box">mdi-package-variant-closed</v-icon>
     <p class="envio">Envío gratis en compras de más de $499</p>
-    <a href="">Acerca de</a>
-    <a href="">Contacto</a>
-    <a href="">Asistencia</a>
+    <a class="acerca" href="">Acerca de</a>
+    <a class="contacto" href="">Contacto</a>
+    <a class="asistencia">Asistencia</a>
     <a class="telefono" href="">Llama +52-1-33-12345678</a>
   </div>
   <v-toolbar color="white" style="height: 100px;display: flex; justify-content: center; align-items: center;">
-    <v-toolbar-title style="font-size: 30px;">Perez Tec</v-toolbar-title>
+    <v-toolbar-title style="font-size: 30px;"><a style="text-decoration: none;color: black;" href="/index.html">Perez TEc</a></v-toolbar-title>
     
     <div class="textfield" style="margin-right: 20px;"><v-text-field style="margin-top: 25px; margin-right: 80px;"
             label="Buscar..."
