@@ -36,7 +36,7 @@
   text-decoration: none;
   padding: 0px;
 }
-.entrar:hover{
+.entrar:hover {
   color: #d3d3d3;
 }
 .fav {
@@ -50,61 +50,105 @@
 }
 .search-input {
   border: #e5e5e5 solid 1px;
-  border-radius: 30px 0 0 30px; 
+  border-radius: 30px 0 0 30px;
   width: 350px;
   height: 50px;
-  padding-left: 10px; 
+  padding-left: 10px;
   background-color: #e5e5e5;
-  
 }
 .search-button {
-  background-color: blue; 
-  color: white; 
-  border: none; 
-  border-radius: 0 30px 30px 0; 
-  height: 50px; 
+  background-color:rgb(143, 60, 251);
+  color: white;
+  border: none;
+  border-radius: 0 30px 30px 0;
+  height: 50px;
   cursor: pointer;
-  text-align: center; 
+  text-align: center;
   margin-right: 250px;
 }
 .search-button i {
-  margin-left: 20px; 
+  margin-left: 20px;
   margin-right: 20px;
 }
-.search-button:hover{
+.search-button:hover {
   background-color: black;
 }
-.menu{
+.menu {
   padding: 10px;
   background-color: #e5e5e5;
   display: flex;
   align-items: center;
 }
-.menu a{
+.menu a {
   text-decoration: none;
   padding: 0 26px;
   color: black;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.menu a:hover{
-  color: blue;
+.menu a:hover {
+  color: rgb(143, 60, 251);
 }
 .custom-button {
-  color: black; 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   cursor: pointer;
   padding: 0 26px;
 }
 
 .custom-button:hover {
-  color: blue;
-}  
-.listmenu{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(143, 60, 251);
 }
-.listmenu:hover{
-  color: blue;
+.listmenu {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.listmenu:hover {
+  color: rgb(143, 60, 251);
   cursor: pointer;
 }
+/* hasta aqui el toolbar y el menu*/
 
-
+.carrusel span {
+  background-color: crimson;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 260px;
+  left: 15%;
+  transform: translateX(-50%);
+}
+.carrusel h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 280px;
+  left: 26%;
+  transform: translateX(-50%);
+  font-size: 60px;
+}
+.carrusel p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 550px;
+  left: 19%;
+  transform: translateX(-50%);
+  font-size: 25px;
+}
+.carrusel button {
+  background-color: rgb(143, 60, 251);
+  color: white;
+  border-radius: 35px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 600px;
+  left: 19%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+.carrusel button:hover{
+  background-color: black;
+}
