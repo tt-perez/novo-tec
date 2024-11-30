@@ -125,6 +125,50 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
         <p>Gana más por tu dinero</p>
         <button>Comprar ahora</button>
       </div>
+      <div class="imagered">
+        <img
+          src="../public/img/telefono-rojo.jpg"
+          alt=""
+          class="telefonorojo"
+        />
+        <span>Ofertas de temporada</span>
+        <h2>
+          Hasta <br />
+          30% menos
+        </h2>
+        <p>En Smartphones seleccionados</p>
+        <button>Tienda</button>
+      </div>
+      <div class="imagevioleta">
+        <img src="../public/img/audifono-violeta.jpg" alt="" class="audifono" />
+        <span>Recién llegados</span>
+        <h2>
+          Lleva tu <br />
+          sonido <br />
+          dondequieras
+        </h2>
+        <p>Mejores marcas de audífonos</p>
+        <button>Comprar</button>
+      </div>
+
+      <div class="promocion">
+        <div class="promocion-item">
+          <v-icon>mdi-bicycle-basket</v-icon>
+          <p>Recogida en la acera</p>
+        </div>
+        <div class="promocion-item">
+          <v-icon>mdi-package-variant-closed</v-icon>
+          <p>Envíos gratis en compras de más de $499</p>
+        </div>
+        <div class="promocion-item">
+          <v-icon>mdi-cash-multiple</v-icon>
+          <p>Precios bajos garantizados</p>
+        </div>
+        <div class="promocion-item">
+          <v-icon>mdi-clock-check-outline</v-icon>
+          <p>Disponibles para ti 24/7</p>
+        </div>
+      </div>
     </body>
   </v-responsive>
   <RouterView />

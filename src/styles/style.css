@@ -107,6 +107,9 @@
 }
 /* hasta aqui el toolbar y el menu*/
 
+.carrusel{
+  margin-bottom: 20px;
+}
 .carrusel span {
   background-color: crimson;
   padding-left: 10px;
@@ -152,3 +155,131 @@
 .carrusel button:hover{
   background-color: black;
 }
+/* aqui termina el carrusel*/
+.imagered, .imagevioleta{
+  display: inline-block;
+  text-align: center;
+}
+.audifono{
+  width: 530px;
+  margin: 30px;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+}
+.telefonorojo{
+  height: 600px;
+  margin: 30px;
+  width: 530px;
+  margin-left: 60px;
+  margin-top: 50px;
+  position: relative;
+}
+.imagered span{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 850px;
+  left: 22%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: white;
+}
+.imagered h2{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 900px;
+  left: 20%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  color: white;
+}
+.imagered p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 1050px;
+  left: 25%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: white;
+}
+.imagered button{
+  background-color:white;
+  color: black;
+  border-radius: 35px;
+  padding: 8px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 1100px;
+  left: 23%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+.imagered button:hover{
+  background-color: crimson;
+  border: solid white 1px;
+}
+.imagevioleta span{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 850px;
+  left: 70%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: white;
+}
+.imagevioleta h2{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 900px;
+  left: 73%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  color: white;
+}
+.imagevioleta p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 1130px;
+  left: 74%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: white;
+}
+.imagevioleta button{
+  background-color:white;
+  color: black;
+  border-radius: 35px;
+  padding: 8px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 1180px;
+  left: 74%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+.imagevioleta button:hover{
+  background-color:rgb(143, 60, 251) ;
+  border: white solid 1px;
+}
+.promocion{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: white; 
+  padding: 60px;
+}
+.promocion-item {
+  display: flex; 
+  align-items: center; 
+}
+.promocion-item p {
+  margin-left: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 18px;
+}
+/* hasta aqui es la promocion
