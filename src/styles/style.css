@@ -1,3 +1,6 @@
+body {
+  background-color: #e5e5e5;
+}
 .promo {
   background-color: black;
   color: white;
@@ -57,7 +60,7 @@
   background-color: #e5e5e5;
 }
 .search-button {
-  background-color:rgb(143, 60, 251);
+  background-color: rgb(143, 60, 251);
   color: white;
   border: none;
   border-radius: 0 30px 30px 0;
@@ -107,7 +110,7 @@
 }
 /* hasta aqui el toolbar y el menu*/
 
-.carrusel{
+.carrusel {
   margin-bottom: 20px;
 }
 .carrusel span {
@@ -152,30 +155,33 @@
   transform: translateX(-50%);
   font-size: 20px;
 }
-.carrusel button:hover{
+.carrusel button:hover {
   background-color: black;
 }
 /* aqui termina el carrusel*/
-.imagered, .imagevioleta{
+.imagered,
+.imagevioleta {
   display: inline-block;
   text-align: center;
+  justify-content: center;
 }
-.audifono{
+.audifono {
   width: 530px;
   margin: 30px;
   height: 600px;
   margin-top: 50px;
   position: relative;
 }
-.telefonorojo{
+.telefonorojo {
   height: 600px;
   margin: 30px;
   width: 530px;
-  margin-left: 60px;
+  margin-left: 50px;
   margin-top: 50px;
+  margin-right: 35px;
   position: relative;
 }
-.imagered span{
+.imagered span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 850px;
@@ -184,7 +190,7 @@
   font-size: 20px;
   color: white;
 }
-.imagered h2{
+.imagered h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 900px;
@@ -193,7 +199,7 @@
   font-size: 50px;
   color: white;
 }
-.imagered p{
+.imagered p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 1050px;
@@ -202,8 +208,8 @@
   font-size: 20px;
   color: white;
 }
-.imagered button{
-  background-color:white;
+.imagered button {
+  background-color: white;
   color: black;
   border-radius: 35px;
   padding: 8px;
@@ -216,11 +222,11 @@
   transform: translateX(-50%);
   font-size: 20px;
 }
-.imagered button:hover{
+.imagered button:hover {
   background-color: crimson;
   border: solid white 1px;
 }
-.imagevioleta span{
+.imagevioleta span {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 850px;
@@ -229,7 +235,7 @@
   font-size: 20px;
   color: white;
 }
-.imagevioleta h2{
+.imagevioleta h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 900px;
@@ -238,7 +244,7 @@
   font-size: 50px;
   color: white;
 }
-.imagevioleta p{
+.imagevioleta p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: absolute;
   top: 1130px;
@@ -247,8 +253,8 @@
   font-size: 20px;
   color: white;
 }
-.imagevioleta button{
-  background-color:white;
+.imagevioleta button {
+  background-color: white;
   color: black;
   border-radius: 35px;
   padding: 8px;
@@ -261,25 +267,82 @@
   transform: translateX(-50%);
   font-size: 20px;
 }
-.imagevioleta button:hover{
-  background-color:rgb(143, 60, 251) ;
+.imagevioleta button:hover {
+  background-color: rgb(143, 60, 251);
   border: white solid 1px;
 }
-.promocion{
-  display: flex; 
-  justify-content: space-around; 
-  align-items: center; 
-  padding: 20px; 
-  background-color: white; 
+.promocion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 60px;
+  background-color: white;
+  margin: 35px;
 }
 .promocion-item {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
 }
 .promocion-item p {
   margin-left: 8px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
 }
-/* hasta aqui es la promocion
+/* hasta aqui es la promocion*/
+.masvendido {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin: 35px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+
+.v-cards{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 20px;
+}
+.masvendido h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding: 40px;
+}
+.item1card {
+  margin: 15px; 
+}
+.masvendido button{
+  background-color: rgb(143, 60, 251);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+  margin: 30px;
+}
+.masvendido button:hover{
+  background-color: black;
+}
+
+.item1card p{
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(143, 60, 251);
+}
+.item1card img{
+  transition: transform 0.3s ease; 
+}
+.item1card img:hover{
+  transform: scale(1.1); 
+}

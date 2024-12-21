@@ -169,6 +169,100 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
           <p>Disponibles para ti 24/7</p>
         </div>
       </div>
+      <div class="masvendido">
+        <h3>Más vendido</h3>
+        <div class="v-cards">
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/fitboot.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             Fitboot fitness con seguimiento del ritmo cardíaco
+            </div>
+            <p>$ 984.00</p>
+          </v-card-text>
+
+        </v-card>
+
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/laptopJP.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             JP laptop para juegos de 15,6" de 256GB
+            </div>
+            <p>$ 984.00</p>
+          </v-card-text>
+
+        </v-card>
+
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/drone.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             HKI Tech drone cuadricóptero con cámara y mando 360
+            </div>
+            <p>$ 999.00</p>
+          </v-card-text>
+
+        </v-card>
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/smartphoneZ.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             Smartphone Z Pixel Max 128GB desbloqueado
+            </div>
+            <p>$ 984.00</p>
+          </v-card-text>
+
+        </v-card>
+
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/audifonosInalambricos.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             Audífonos inalámbricos con cancelación de ruido
+            </div>
+            <p>$ 984.00</p>
+          </v-card-text>
+
+        </v-card>
+
+        <v-card class="item1card" max-width="150" max-height="400">
+          <v-img
+            height="180"
+            src="../public/img/realidadVirtual.jpeg"
+            cover
+          ></v-img>
+          <v-card-text>
+            <div>
+             Gafas de realidad virtual Safay Gen 2 de 256GB con mando táctiles
+            </div>
+            <p>$ 984.00</p>
+          </v-card-text>
+
+        </v-card>
+      </div>
+      <button>Ver todo</button>
+      </div>
     </body>
   </v-responsive>
   <RouterView />
