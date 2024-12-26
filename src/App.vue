@@ -172,96 +172,118 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
       <div class="masvendido">
         <h3>Más vendido</h3>
         <div class="v-cards">
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/fitboot.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             Fitboot fitness con seguimiento del ritmo cardíaco
-            </div>
-            <p>$ 984.00</p>
-          </v-card-text>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/fitboot.jpeg" cover></v-img>
+            <v-card-text>
+              <div>Fitboot fitness con seguimiento del ritmo cardíaco</div>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
 
-        </v-card>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/laptopJP.jpeg" cover></v-img>
+            <v-card-text>
+              <div>JP laptop para juegos de 15,6" de 256GB</div>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
 
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/laptopJP.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             JP laptop para juegos de 15,6" de 256GB
-            </div>
-            <p>$ 984.00</p>
-          </v-card-text>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/drone.jpeg" cover></v-img>
+            <v-card-text>
+              <div>HKI Tech drone cuadricóptero con cámara y mando 360</div>
+              <p>$ 999.00</p>
+            </v-card-text>
+          </v-card>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/smartphoneZ.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>Smartphone Z Pixel Max 128GB desbloqueado</div>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
 
-        </v-card>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/audifonosInalambricos.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>Audífonos inalámbricos con cancelación de ruido</div>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
 
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/drone.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             HKI Tech drone cuadricóptero con cámara y mando 360
-            </div>
-            <p>$ 999.00</p>
-          </v-card-text>
-
-        </v-card>
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/smartphoneZ.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             Smartphone Z Pixel Max 128GB desbloqueado
-            </div>
-            <p>$ 984.00</p>
-          </v-card-text>
-
-        </v-card>
-
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/audifonosInalambricos.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             Audífonos inalámbricos con cancelación de ruido
-            </div>
-            <p>$ 984.00</p>
-          </v-card-text>
-
-        </v-card>
-
-        <v-card class="item1card" max-width="150" max-height="400">
-          <v-img
-            height="180"
-            src="../public/img/realidadVirtual.jpeg"
-            cover
-          ></v-img>
-          <v-card-text>
-            <div>
-             Gafas de realidad virtual Safay Gen 2 de 256GB con mando táctiles
-            </div>
-            <p>$ 984.00</p>
-          </v-card-text>
-
-        </v-card>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/realidadVirtual.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>
+                Gafas de realidad virtual Safay Gen 2 de 256GB con mando
+                táctiles
+              </div>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+        </div>
+        <button>Ver todo</button>
       </div>
-      <button>Ver todo</button>
+      <div class="comprarCategoria">
+        <h3>Comprar por categoría</h3>
+        <div class="images">
+          <div class="categoria-item">
+            <img src="../public/img/laptopJP.jpeg" alt="" />
+            <a href="">Computadoras</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/smartphoneZ.jpeg" alt="" />
+            <a href="">Celulares</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/drone.jpeg" alt="" />
+            <a href="">Drones y camáras</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/oferta.jpeg" alt="" />
+            <a href="">Ofertas</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/tablets.jpeg" alt="" />
+            <a href="">Tabletas</a>
+          </div>
+        </div>
+        
+        
+        <div class="images">
+          <div class="categoria-item">
+            <img src="../public/img/masvendido.jpeg" alt="" />
+            <a href="">Más vendido</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/smartv.jpeg" alt="" />
+            <a href="">T.V. y cine en casa</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/tecnoportatil.jpeg" alt="" />
+            <a href="">Tecnología portátil</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/bocinas.jpeg" alt="" />
+            <a href="">Bocinas</a>
+          </div>
+          <div class="categoria-item">
+            <img src="../public/img/audifonoscable.jpeg" alt="" />
+            <a href="">Audífonos</a>
+          </div>
+        </div>  
       </div>
     </body>
   </v-responsive>
