@@ -285,6 +285,90 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
           </div>
         </div>  
       </div>
+      <div class="mejorprecio">
+        <img src="../public/img/tablets2.jpeg" alt="">
+        <div class="circulorojo">Mejor Precio</div>
+        <div class="text">
+          <h3>Ahorra hasta</h3>
+          <span>$150</span>
+          <h3>en laptops y tabletas seleccionadas</h3>
+          <p>Aplican los términos y condiciones</p>
+        </div>
+        <button>Tienda</button>
+      </div>
+
+      <div class="oferta">
+        <h3>Ofertas</h3>
+        <div class="v-cards">
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/sapacemoon.jpeg" cover></v-img>
+            <v-card-text>
+              <div>Space Moon Smartwatch con cargador</div>
+              <span>$999.00</span>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/OVE.jpeg" cover></v-img>
+            <v-card-text>
+              <div>OVE light Space 5G 128GB</div>
+              <span>$999.00</span>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img height="180" src="../public/img/laptopJP.jpeg" cover></v-img>
+            <v-card-text>
+              <div>Laptop Pilates con pantalla táctil de 16" y 24GB de RAM</div>
+              <span>$999.00</span>
+              <p>$ 999.00</p>
+            </v-card-text>
+          </v-card>
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/bocinas.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>Bocina portatil con bluetooth Turn5</div>
+              <span>$999.00</span>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/realidadVirtual.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>Gafas de realidad virtual Journey Glass XD</div>
+              <span>$999.00</span>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+
+          <v-card class="item1card" max-width="150" max-height="400">
+            <v-img
+              height="180"
+              src="../public/img/camara.jpeg"
+              cover
+            ></v-img>
+            <v-card-text>
+              <div>
+                Camara de seguridad inalambrica interior 1080p
+              </div>
+              <span>$999.00</span>
+              <p>$ 984.00</p>
+            </v-card-text>
+          </v-card>
+        </div>
+        <button>Ver todo</button>
+      </div>
     </body>
   </v-responsive>
   <RouterView />
