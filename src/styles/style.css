@@ -537,3 +537,76 @@ body {
 .oferta button:hover{
   background-color: black;
 }
+/* hasta aqui las ofertas*/
+
+.especialdia{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: white; 
+  margin: 35px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+.especialdia img{
+  height: 100%;
+  margin-right: 0;
+  align-self: flex-end;
+  width: 50%;
+  margin: 20px;
+}
+.texto h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+.texto span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(143, 60, 251);
+}
+.texto p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+}
+.texto{
+  margin-left: -450px;
+  flex: 1;
+  text-align: left;
+  margin-top: -400px;
+}
+.dto{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  display: inline;
+}
+.especial{
+  background-color: crimson;
+  color: white;
+  margin-top: -500px;
+  margin-left: -400px;
+  margin-right: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+}
+.especialdia button{
+  background-color: rgb(143, 60, 251);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+  margin: 30px;
+}
+.especialdia button:hover{
+  background-color: black;
+}

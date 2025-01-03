@@ -260,8 +260,7 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             <a href="">Tabletas</a>
           </div>
         </div>
-        
-        
+
         <div class="images">
           <div class="categoria-item">
             <img src="../public/img/masvendido.jpeg" alt="" />
@@ -283,10 +282,11 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             <img src="../public/img/audifonoscable.jpeg" alt="" />
             <a href="">Audífonos</a>
           </div>
-        </div>  
+        </div>
       </div>
+
       <div class="mejorprecio">
-        <img src="../public/img/tablets2.jpeg" alt="">
+        <img src="../public/img/tablets2.jpeg" alt="" />
         <div class="circulorojo">Mejor Precio</div>
         <div class="text">
           <h3>Ahorra hasta</h3>
@@ -301,7 +301,11 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
         <h3>Ofertas</h3>
         <div class="v-cards">
           <v-card class="item1card" max-width="150" max-height="400">
-            <v-img height="180" src="../public/img/sapacemoon.jpeg" cover></v-img>
+            <v-img
+              height="180"
+              src="../public/img/sapacemoon.jpeg"
+              cover
+            ></v-img>
             <v-card-text>
               <div>Space Moon Smartwatch con cargador</div>
               <span>$999.00</span>
@@ -327,11 +331,7 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             </v-card-text>
           </v-card>
           <v-card class="item1card" max-width="150" max-height="400">
-            <v-img
-              height="180"
-              src="../public/img/bocinas.jpeg"
-              cover
-            ></v-img>
+            <v-img height="180" src="../public/img/bocinas.jpeg" cover></v-img>
             <v-card-text>
               <div>Bocina portatil con bluetooth Turn5</div>
               <span>$999.00</span>
@@ -353,21 +353,27 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
           </v-card>
 
           <v-card class="item1card" max-width="150" max-height="400">
-            <v-img
-              height="180"
-              src="../public/img/camara.jpeg"
-              cover
-            ></v-img>
+            <v-img height="180" src="../public/img/camara.jpeg" cover></v-img>
             <v-card-text>
-              <div>
-                Camara de seguridad inalambrica interior 1080p
-              </div>
+              <div>Camara de seguridad inalambrica interior 1080p</div>
               <span>$999.00</span>
               <p>$ 984.00</p>
             </v-card-text>
           </v-card>
         </div>
         <button>Ver todo</button>
+      </div>
+      <div class="especialdia">
+        <img src="../public/img/dron.jpeg" alt="" />
+        <div><p class="especial">Especial del día</p></div>
+        <div class="texto">
+          <h3>La mejor vista de la ciudad</h3>
+          <span>30%</span>
+          <p class="dto">DTO</p>
+          <h3>en drones profesionales</h3>
+          <p>Cantidad limitada, disponibilidad en la página del producto</p>
+          <button>Tienda</button>
+        </div>
       </div>
     </body>
   </v-responsive>
