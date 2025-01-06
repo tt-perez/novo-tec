@@ -388,7 +388,17 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             </tr>
         </v-table>
       </div>
-    
+    <div class="boletininfo">
+      <h3>Boletín Informativo</h3>
+      <p>Suscríbete y recibe noticias sobre novedades y ofertas especiales</p>
+      <span>Email*</span>
+      <div class="input-conatiner">
+          <input type="email" placeholder="   Ingresa tu email aqui" class="email-input" />
+          <button @click="search" class="email-button">
+            Suscribete
+          </button>
+        </div>
+    </div>
     </body>
   </v-responsive>
   <RouterView />
