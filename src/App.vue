@@ -375,6 +375,20 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
           <button>Tienda</button>
         </div>
       </div>
+      <div class="marcas">
+        <h3>Marcas</h3>
+        <v-table>
+          
+            <tr>
+              <th class="text-center">ZODIAC</th>
+              <th class="text-center">ZORO</th>
+              <th class="text-center">PJK</th>
+              <th class="text-center">GXL</th>
+              <th class="text-center">HORIZON</th>
+            </tr>
+        </v-table>
+      </div>
+    
     </body>
   </v-responsive>
   <RouterView />

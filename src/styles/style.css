@@ -610,3 +610,38 @@ body {
 .especialdia button:hover{
   background-color: black;
 }
+/* hasta aqui el especial del dia*/
+
+.marcas{
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 20px; 
+  background-color: white; 
+  margin: 35px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+.marcas h3{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding: 40px;
+}
+.marcas table{
+  color: #a3a3a3;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+.marcas th, .marcas td{
+  border: #e3e3e3 solid 1px;
+  padding: 50px;
+}
+/* hasta aqui las marcas*/
