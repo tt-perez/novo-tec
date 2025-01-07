@@ -455,7 +455,20 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
       <v-divider></v-divider>
       <div class="pago">
         <p>Aceptamos los siguientes métodos de pago</p>
+        <v-table>
+          <tr>
+            <th class="text-center"><img src="../public/img/visa.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/mastercard.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/amexpress.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/dclub.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/discover.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/jcb.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/paypal.jpeg" alt=""></th>
+            <th class="text-center"><img src="../public/img/unionpay.jpeg" alt=""></th>
+          </tr>
+        </v-table>
       </div>
+      <footer>&copy; 2025 Creado por Taimary Trimiño</footer>
     </body>
   </v-responsive>
   <RouterView />
