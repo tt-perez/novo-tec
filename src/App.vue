@@ -399,6 +399,16 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
           </button>
         </div>
     </div>
+    <div class="final">
+      <div class="ayuda">
+        <h3>¿Buscas ayuda? <br> Ve a la página de ayuda</h3>
+        <p>Párrafo. Haz click aquí para agregar tu texto y editar. <br> Permite que tus usuarios te conozcan.</p>
+        <button>Ir al centro de ayuda</button>
+      </div>
+      <img src="../public/img/desktop.jpeg" alt="">    
+    
+    </div>
+    
     </body>
   </v-responsive>
   <RouterView />
