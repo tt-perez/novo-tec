@@ -378,37 +378,84 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
       <div class="marcas">
         <h3>Marcas</h3>
         <v-table>
-          
-            <tr>
-              <th class="text-center">ZODIAC</th>
-              <th class="text-center">ZORO</th>
-              <th class="text-center">PJK</th>
-              <th class="text-center">GXL</th>
-              <th class="text-center">HORIZON</th>
-            </tr>
+          <tr>
+            <th class="text-center">ZODIAC</th>
+            <th class="text-center">ZORO</th>
+            <th class="text-center">PJK</th>
+            <th class="text-center">GXL</th>
+            <th class="text-center">HORIZON</th>
+          </tr>
         </v-table>
       </div>
-    <div class="boletininfo">
-      <h3>Boletín Informativo</h3>
-      <p>Suscríbete y recibe noticias sobre novedades y ofertas especiales</p>
-      <span>Email*</span>
-      <div class="input-conatiner">
-          <input type="email" placeholder="   Ingresa tu email aqui" class="email-input" />
-          <button @click="search" class="email-button">
-            Suscribete
-          </button>
+      <div class="boletininfo">
+        <h3>Boletín Informativo</h3>
+        <p>Suscríbete y recibe noticias sobre novedades y ofertas especiales</p>
+        <span>Email*</span>
+        <div class="input-conatiner">
+          <input
+            type="email"
+            placeholder="   Ingresa tu email aqui"
+            class="email-input"
+          />
+          <button @click="search" class="email-button">Suscribete</button>
         </div>
-    </div>
-    <div class="final">
-      <div class="ayuda">
-        <h3>¿Buscas ayuda? <br> Ve a la página de ayuda</h3>
-        <p>Párrafo. Haz click aquí para agregar tu texto y editar. <br> Permite que tus usuarios te conozcan.</p>
-        <button>Ir al centro de ayuda</button>
       </div>
-      <img src="../public/img/desktop.jpeg" alt="">    
-    
-    </div>
-    
+      <div class="final">
+        <div class="ayuda">
+          <h3>
+            ¿Buscas ayuda? <br />
+            Ve a la página de ayuda
+          </h3>
+          <p>
+            Párrafo. Haz click aquí para agregar tu texto y editar. <br />
+            Permite que tus usuarios te conozcan.
+          </p>
+          <button>Ir al centro de ayuda</button>
+        </div>
+        <img src="../public/img/desktop.jpeg" alt="" />
+      </div>
+      <div class="informacion">
+        <div class="ubicacion">
+          <h4>Ubicación de Tienda</h4>
+          <p>
+            Av. Fray A. Alcalde 10 44100, Guad.,Jal.,México <br />
+            info@misitio.com <br />+52-1-33-12345678
+          </p>
+          <v-icon size="20">mdi-facebook</v-icon>
+          <v-icon size="20">mdi-instagram</v-icon> 
+          <v-icon size="20">mdi-twitter</v-icon> 
+          <v-icon size="20">mdi-youtube</v-icon>
+        </div>
+        <div class="infotienda">
+          <h4>Tienda</h4>
+          <a href="">Comprar todo</a>
+          <a href="">Computadoras</a>
+          <a href="">Tabletas</a>
+          <a href="">Drones y camaras</a>
+          <a href="">Celulares</a>
+          <a href="">T.V. y cine en casa</a>
+          <a href="">Tecnología portátil</a>
+          <a href="">Ofertas</a>
+        </div>
+        <div class="cliente">
+          <h4>Atención al cliente</h4>
+          <a href="">Contáctenos</a>
+          <a href="">Asistencia</a>
+          <a href="">Acerca de</a>
+          <a href="">Empleos</a>
+        </div>
+        <div class="politica">
+          <h4>Política</h4>
+          <a href="">Envíos y devoluciones</a>
+          <a href="">Términos y condiciones</a>
+          <a href="">Métodos de pago</a>
+          <a href="">FAQ</a>
+        </div>
+      </div>
+      <v-divider></v-divider>
+      <div class="pago">
+        <p>Aceptamos los siguientes métodos de pago</p>
+      </div>
     </body>
   </v-responsive>
   <RouterView />
