@@ -6,7 +6,7 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
 
 <template>
   <v-responsive>
-    <body style="background-color: #e5e5e5">
+    <body>
       <div class="promo">
         <v-icon class="icon-box">mdi-package-variant-closed</v-icon>
         <p class="envio">Envío gratis en compras de más de $499</p>
@@ -15,45 +15,55 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
         <a class="asistencia" href="">Asistencia</a>
         <a class="telefono" href="">Llama +52-1-33-12345678</a>
       </div>
-      <v-toolbar
-        class="toolbar"
-        color="white"
-        style="
-          height: 100px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        "
-      >
-        <v-toolbar-title style="font-size: 30px"
-          ><a
-            class="toolbar-title"
-            style="
-              text-decoration: none;
-              color: black;
-              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-                sans-serif;
-              font-size: 42px;
-              font-weight: 600;
-            "
-            href="/index.html"
-            >Perez TEc</a
-          ></v-toolbar-title
+      
+        <v-toolbar
+          class="toolbar"
+          color="white"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+          "
         >
-        <div class="search-container">
-          <input type="text" placeholder="   Buscar..." class="search-input" />
-          <button @click="search" class="search-button">
-            <v-icon>mdi-magnify</v-icon>
-          </button>
-        </div>
-        <div class="icons">
-          <v-icon size="30">mdi-account-circle</v-icon>
-          <a class="entrar" href="">Entrar</a>
-          <v-icon style="margin-left: 20px" size="30">mdi-heart-outline</v-icon>
-          <a class="fav" href="">Favoritos</a>
-          <v-icon style="margin: 0 20px" size="30">mdi-cart-outline</v-icon>
-        </div>
-      </v-toolbar>
+          <v-toolbar-title style="font-size: 30px"
+            ><a
+              class="toolbar-title"
+              style="
+                text-decoration: none;
+                color: black;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+              "
+              href="/index.html"
+              >Perez TEc</a
+            ></v-toolbar-title
+          >
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="   Buscar..."
+              class="search-input"
+            />
+            <button @click="search" class="search-button">
+              <v-icon>mdi-magnify</v-icon>
+            </button>
+          </div>
+          <div class="icons">
+            <v-icon size="30">mdi-account-circle</v-icon>
+            <a class="entrar" href="">Entrar</a>
+            <v-icon style="margin-left: 20px" size="30"
+              >mdi-heart-outline</v-icon
+            >
+            <a class="fav" href="">Favoritos</a>
+            <v-icon style="margin: 0 20px" size="30">mdi-cart-outline</v-icon>
+          </div>
+        </v-toolbar>
+      
       <div class="menu">
         <a href="">Comprar todo</a>
         <a href="">Computadoras</a>
@@ -422,8 +432,8 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             info@misitio.com <br />+52-1-33-12345678
           </p>
           <v-icon size="20">mdi-facebook</v-icon>
-          <v-icon size="20">mdi-instagram</v-icon> 
-          <v-icon size="20">mdi-twitter</v-icon> 
+          <v-icon size="20">mdi-instagram</v-icon>
+          <v-icon size="20">mdi-twitter</v-icon>
           <v-icon size="20">mdi-youtube</v-icon>
         </div>
         <div class="infotienda">
@@ -457,14 +467,30 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
         <p>Aceptamos los siguientes métodos de pago</p>
         <v-table>
           <tr>
-            <th class="text-center"><img src="../public/img/visa.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/mastercard.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/amexpress.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/dclub.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/discover.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/jcb.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/paypal.jpeg" alt=""></th>
-            <th class="text-center"><img src="../public/img/unionpay.jpeg" alt=""></th>
+            <th class="text-center">
+              <img src="../public/img/visa.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/mastercard.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/amexpress.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/dclub.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/discover.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/jcb.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/paypal.jpeg" alt="" />
+            </th>
+            <th class="text-center">
+              <img src="../public/img/unionpay.jpeg" alt="" />
+            </th>
           </tr>
         </v-table>
       </div>
