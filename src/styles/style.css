@@ -143,22 +143,15 @@ body {
     display: none;
   }
   .toolbar {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    justify-content: center;
+  }
+  .toolbar-title {
+    margin-bottom: 10px;
     text-align: center;
   }
   .search-container {
-    width: 50%;
-    margin: auto;
-    padding: auto;
-  }
-  .toolbar-title {
-    margin: auto;
-    display: flex;
-    padding: auto;
-    text-align: center;
+    display: none;
   }
 }
 /* hasta aqui el toolbar y el menu*/
@@ -503,6 +496,11 @@ body {
 .item1card img:hover {
   transform: scale(1.1);
 }
+@media(max-width:1000px){
+  .masvendido button{
+    width: 100%;
+  }
+}
 /* hasta aqui los mas vendidos*/
 
 .comprarCategoria {
@@ -707,6 +705,11 @@ body {
 .oferta button:hover {
   background-color: black;
 }
+@media(max-width:1000px){
+  .oferta button{
+    width: 100%;
+  }
+}
 /* hasta aqui las ofertas*/
 
 .especialdia {
@@ -806,6 +809,12 @@ body {
   .texto p,
   .texto button {
     margin: 10px 0;
+  }
+  .especialdia button{
+    width: 100%;
+  }
+  .dto{
+    display: block;
   }
 }
 /* hasta aqui el especial del dia*/

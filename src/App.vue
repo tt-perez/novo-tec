@@ -15,9 +15,9 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
         <a class="asistencia" href="">Asistencia</a>
         <a class="telefono" href="">Llama +52-1-33-12345678</a>
       </div>
-      
+      <v-responsive>
+      <div class="toolbar">
         <v-toolbar
-          class="toolbar"
           color="white"
           style="
             display: flex;
@@ -28,9 +28,9 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
             color: white;
           "
         >
+        <div class="toolbar-title">
           <v-toolbar-title style="font-size: 30px"
             ><a
-              class="toolbar-title"
               style="
                 text-decoration: none;
                 color: black;
@@ -43,6 +43,7 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
               >Perez TEc</a
             ></v-toolbar-title
           >
+        </div>
           <div class="search-container">
             <input
               type="text"
@@ -60,10 +61,11 @@ const items = ref([{ title: "Audífonos" }, { title: "Bocinas" }]);
               >mdi-heart-outline</v-icon
             >
             <a class="fav" href="">Favoritos</a>
-            <v-icon style="margin: 0 20px" size="30">mdi-cart-outline</v-icon>
+            <v-icon class="cart" style="margin: 0 20px" size="30">mdi-cart-outline</v-icon>
           </div>
         </v-toolbar>
-      
+      </div>
+    </v-responsive>
       <div class="menu">
         <a href="">Comprar todo</a>
         <a href="">Computadoras</a>
